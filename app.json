@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/DalinMathew/AutoFilterBotV3",
-    "repository": "https://github.com/DalinMathew/AutoFilterBotV3",
+    "website": "https://heroku.com/deploy?template=https://github.com/DarkBot/AutoFilterBotV3",
+    "repository": "https://heroku.com/deploy?template=https://github.com/DarkBot/AutoFilterBotV3",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -50,7 +50,9 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm Auto Filter Bot With Greater Abilities**",
+            "value": "**Hi, I'm Auto Filter Bot With Greater Abilities
+            
+            Created by cyber dark**",
             "required": false
         },
         "USE_CAPTION_FILTER": {
