@@ -18,12 +18,14 @@ AUTH_CHANNEL = None
 
 # MongoDB information
 DATABASE_URI = "mongodb://[LuciferMoringstar_Robot:LuciferMoringstar_Robot@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
-DATABASE_NAME = 'LuciferMoringstar_Robot'
+DATABASE_NAME = 'Cyber_Dark'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm Media Search bot  Created by Cyber Dark**  
+
+
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
 """
