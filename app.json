@@ -50,7 +50,7 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm Auto Filter Bot With Greater Abilities**",
+            "value": "**Hi, I'm Auto Filter Bot With Greater Abilities    Created by cyber dark**",
             "required": false
         },
         "USE_CAPTION_FILTER": {
@@ -79,7 +79,7 @@
         },
         "BOT_NAME": {
             "description": "Name of the database in mongoDB ",
-            "value": "LuciferMoringstar_Robot"
+            "value": "Cyber Dark_Robot"
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
