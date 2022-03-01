@@ -34,8 +34,8 @@
 
 #### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Habdio/AutoFilterBotV3)
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Habdio/AutoFilterBotV3
+  
 #### Hard Way
 ```bash
 # Create virtual environment
