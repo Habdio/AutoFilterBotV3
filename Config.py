@@ -6,17 +6,17 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'CyberDark_Robot')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['10342078'])
+API_HASH = environ['09ca4ef17b06c5030d4e8f7cbd92f1a9']
+BOT_TOKEN = environ['5140049819:AAHmjTAWoVwHmaEEnsM-rFUg_1UxpRaHks0']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
 BROADCAST_CHANNEL = int(os.environ.get("BROADCAST_CHANNEL", ""))
-ADMIN_ID = set(int(x) for x in os.environ.get("ADMIN_ID", "").split())
-DB_URL = os.environ.get("DATABASE_1", "")
+ADMIN_ID = set(int(x) for x in os.environ.get("ADMIN_ID", "5026169111").split())
+DB_URL = os.environ.get("DATABASE_1", "mongodb+srv://cd:cd@cluster0.4yqrl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST", True))
 
 # Admins, Channels & Users
@@ -47,7 +47,7 @@ if FILE_CAPTION.strip() == "":
     CUSTOM_FILE_CAPTION=None
 else:
     CUSTOM_FILE_CAPTION=FILE_CAPTION
-if OMDB_API_KEY.strip() == "":
+if OMDB_API_KEY.strip() == "554641de":
     API_KEY=None
 else:
     API_KEY=OMDB_API_KEY
